@@ -4,7 +4,7 @@ body {
 }
 
 .heading {
-   color: #01458d;
+  color: #01458d;
   margin-left: 30%;
   margin-right: 30%;
   font-family: 'Montserrat', sans-serif;
@@ -12,7 +12,7 @@ body {
 
 .heading1 {
   color: white;
-  background-color:  #01458d;
+  background-color: #01458d;
 }
 
 .heading2 {
@@ -25,9 +25,6 @@ body {
   margin-right: 30%;
   font-family: 'Montserrat', sans-serif;
 }
-
-
-
 
 .p1 {
   color: #c0fefc;
@@ -49,7 +46,61 @@ body {
 
 .aims {
   float: left;
-  width: 200px;
-  height: 200px;
+  width: 15%;
+  height: 15%;
   margin-left: 5%;
+}
+
+.icons {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.rotate:hover {
+  animation: rotation 4s infinite linear;
+}
+
+.btn:hover {
+  transition-duration: 0.5s;
+}
+
+.btn-outline-warning {
+  color: #e1306c;
+  border-color: #e1306c;
+}
+
+.btn1:hover {
+  color: white;
+  background-color: #e1306c;
+  border-color: #e1306c;
+}
+
+.i {
+  display: inline-block;
+  margin: auto auto auto 2%;
+}
+
+.i2 {
+  display: inline-block;
+  margin: auto;
+}
+
+.i3 {
+  display: inline-block;
+  margin: auto;
+}
+
+.p3 {
+  color: white;
+  text-align: justify;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
 }
