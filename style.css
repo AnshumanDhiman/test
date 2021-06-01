@@ -56,9 +56,6 @@ body {
   margin-right: 15%;
 }
 
-.rotate:hover {
-  animation: rotation 4s infinite linear;
-}
 
 .btn:hover {
   transition-duration: 0.5s;
@@ -73,6 +70,16 @@ body {
   color: white;
   background-color: #e1306c;
   border-color: #e1306c;
+}
+
+.btn1:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .i {
@@ -95,12 +102,41 @@ body {
   text-align: justify;
 }
 
-@keyframes rotation {
+.rotate1:hover {
+  animation: rotation1 4s infinite linear;
+}
+
+.rotate2:hover {
+  animation: rotation2 3s infinite linear;
+}
+
+.rotate3:hover {
+  animation: rotation3 3s infinite linear;
+}
+
+@keyframes rotation1 {
   from {
     transform: rotate(0deg);
   }
 
   to {
     transform: rotate(359deg);
+  }
+}
+
+
+@keyframes rotation2 {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(359deg);
+  }
+}
+
+@keyframes rotation3 {
+  to {
+    transform: scale(1.8, 1.8);
   }
 }
