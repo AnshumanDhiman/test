@@ -7,7 +7,8 @@ function myFunction() {
 function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("loader1").style.display = "none";
-    document.getElementById("loader2").style.display = "none";
+  document.getElementById("loader2").style.display = "none";
+    document.getElementById("loader3").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
 
 }

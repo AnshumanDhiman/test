@@ -72,26 +72,34 @@
 }
 
 #loader {
-  position: absolute;
-  width: 100px;
-  height: 200px;
-  top: 50%;
-  left: 50%;
+  margin-left: 50%;
+  margin-top: 5%;
   z-index: 1;
+  font-size: 1vw;
 }
 
 #loader1 {
-  position: relative;
-  margin-top: 15em;
+  font-size: 1vw;
+  margin-top: 10%;
   text-align: center;
   z-index: 1;
 }
 
 #loader2 {
-  position: relative;
-  margin-top: 17em;
+  font-size: 1vw;
   text-align: center;
   z-index: 1;
+}
+
+#loader3 {
+  text-align: center;
+  z-index: 1;
+  margin-bottom: 1%;
+}
+
+.image_an {
+  width: 100px;
+  height: 100px;
 }
 
 @media (min-width: 400px) {
