@@ -72,6 +72,7 @@
 }
 
 #loader {
+  position: absolute;
   margin-left: 50%;
   margin-top: 5%;
   z-index: 1;
@@ -98,8 +99,8 @@
 }
 
 .image_an {
-  width: 100px;
-  height: 100px;
+  width: 10%;
+  height: 10%x;
 }
 
 @media (min-width: 400px) {
