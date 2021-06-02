@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="aeronautica_logo.ico">
+  <script src="script.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Monda&family=Montserrat&display=swap" rel="stylesheet">
   <!--Fontawesome-->
@@ -15,7 +16,26 @@
   <title>Learn More</title>
 </head>
 
-<body>
+<body onload="myFunction()" style="margin:0;">
+      <p class="heading3" id="loader1">Hold Tight... We are Loading</p>
+  <div id="loader">
+
+    <div class="example">
+      <div class="sk-fold">
+        <div class="sk-fold-cube"></div>
+        <div class="sk-fold-cube"></div>
+        <div class="sk-fold-cube"></div>
+        <div class="sk-fold-cube"></div>
+      </div>
+
+    </div>
+
+
+  </div>
+    <p class="heading3" id="loader2">Aeronautica Welcomes You...</p>
+
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
   <!--============================navbar=========================-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="height:70px">
     <div class="container-fluid">
@@ -53,6 +73,8 @@
     </div>
   </nav>
   <!---------------------------------->
+
+
   <br>
   <h1 class="heading"><span class="heading1">Aeronautica</span> <span class="heading2">IPEC</span></h1>
   <br>
@@ -100,7 +122,7 @@
   <section id="features">
     <div class="row">
       <div class="feature-box1 col-lg-4">
-        <a href="https://www.instagram.com/aeronautica_ipec/"><button type="button" class="btn btn1 btn-outline-warning" style=""><i class="fab fa-instagram fa-2x rotate1"></i>  </button></a>
+        <a href="https://www.instagram.com/aeronautica_ipec/"><button type="button" class="btn btn1 btn-outline-warning" style=""><i class="fab fa-instagram fa-2x rotate1"></i> </button></a>
         <h4 class="heading4">Instagram</h4>
       </div>
       <div class="feature-box2 col-lg-4">
@@ -114,9 +136,14 @@
     </div>
   </section>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</div>
 </body>
 
 </html>
