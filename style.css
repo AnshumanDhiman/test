@@ -75,7 +75,7 @@ body {
 
 /*Icons and Images*/
 .icon {
-
+  float:left;
   color: #0a81ab;
   text-align: center;
   padding: 2%;
